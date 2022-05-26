@@ -1,0 +1,68 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Nav section */
+
+.navbar-brand h3 {
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/big.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+header p {
+  text-align: justify;
+}
+
+#Acerca-de-mi h3 {
+  padding-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-align: justify;
+  padding-bottom: 5px;
+}
+
+/* Experiencia profesional */
+
+#Experiencia .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#Experiencia {
+  background-color: #78b2da;
+  text-align: justify;
+}
+
+#Experiencia h5 {
+  text-align: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
